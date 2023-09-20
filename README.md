@@ -10,6 +10,9 @@ Generates pages at compile time, stores them in program memory on flash, so you 
 
 # Run Demo
 Open Project in PlatformIO-IDE, choose either ESP32 or ESP8266 (profile name "d1-mini-pro", should work with any 8266 devboard) profile.  
+
 Copy src/secrets.example.h to src/secrets.h and fill in wifi details.  
+
 Connect corresponding microcontroller, compile, upload, monitor & run.  
+
 Visit the website under the IP written into the console.  
