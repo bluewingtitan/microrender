@@ -45,7 +45,7 @@ MCR_BASE(
             It makes generated html available via static functions (as return value). Rendered html gets stored in program storage instead of RAM to allow for complex pages without the biggest drawback they usually come with on microcontrollers.)
         )
         MCR_ELEMENT(
-            MCR_TEXT(Microrender is specifically targeted at the <a href="https://www.esp8266.com/">ESP-8266</a>, but could be used basically on any plattform.)
+            MCR_TEXT(Microrender is specifically targeted at the <a href="https://de.wikipedia.org/wiki/ESP8266">ESP-8266</a> and <a href="https://de.wikipedia.org/wiki/ESP32">ESP-32</a>, but could be used basically on any plattform.)
             MCR_TEXT(Microrender is not meant as a fully fledged webapp framework, only as fully fledged as needed for &quot;the edge&quot;.)
         )
     )

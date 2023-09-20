@@ -1,8 +1,8 @@
 {
     "name": "microrender",
-    "version": "1.0.0",
-    "description": "A html rendering library for the edge (specifically the esp8266)",
-    "keywords": "esp8266,prerendering,html",
+    "version": "1.1.0",
+    "description": "A html rendering library for the edge (specifically the esp8266 and esp32)",
+    "keywords": "esp8266,esp32,prerendering,html",
     "repository":
     {
       "type": "git",
@@ -18,5 +18,5 @@
     ],
     "license": "MIT",
     "frameworks": "Arduino",
-    "platforms": "espressif8266"
+    "platforms": ["espressif8266", "espressif32"]
   }
